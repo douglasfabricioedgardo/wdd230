@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 90%;
+    width: 100%;
     margin:auto;
 }
 header{
@@ -25,7 +25,7 @@ header, h1, h2  {
     font-family: var(--heading-font);
 }
 p, footer{
-    color: rgba(245, 245, 245, 0.85);
+    color: rgba(9, 9, 9, 0.85);
     font-family: var(--paragraph-font); 
 }
 
@@ -43,25 +43,25 @@ p, footer{
     border-radius: 10px;
     overflow: hidden;
 
-    box-shadow: 10px 10px 40px 10px #6c9be2;
+    box-shadow: 5px 5px 20px 5px #6c9be2;
 }
 #card1{
     grid-column: 1/2;
     text-align: center;
     align-content: center;
-    box-shadow: 10px 10px 40px 10px #6c9be2;
+    box-shadow: 5px 5px 20px 5px #494d53;
 }
 #card2{
     grid-column: 2/3;
     text-align: center;
     align-content: center;
-    box-shadow: 10px 10px 40px 10px #6c9be2;
+    box-shadow: 5px 5px 20px 5px #494d53;
 }
 #card3{
     grid-column: 3/4;
     text-align: center;
     align-content: center;
-    box-shadow: 10px 10px 40px 10px #6c9be2;
+    box-shadow: 5px 5px 20px 5px #494d53;
 }
 img{
     align-content: center;
@@ -73,7 +73,7 @@ img{
     text-align: center;
     align-items: center;
     margin: 10px;
-    background-color: #6c9be2;
+    box-shadow: 5px 5px 20px 5px #6c9be2;
 }
 footer{
     color:black;
