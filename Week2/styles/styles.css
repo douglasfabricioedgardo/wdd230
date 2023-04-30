@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&family=Passion+One&display=swap');
+:root{
+    --heading-font: "Passion One";
+    --paragraph-font: "Chivo Mono";
+}
+
+body{
+    width: 90%;
+    margin:auto;
+}
+header{
+    display: block;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    background-color: #ee96bff6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    max-height: 300%;
+    max-width: 200%;
+}
+h1{
+    color: white;
+}
+header, h1, h2  {
+    font-family: var(--heading-font);
+}
+p, footer{
+    font-family: var(--paragraph-font); 
+}
+
+
+#description{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+
+#cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+
+    box-shadow: 1px 1px 4px 1px #888;
+}
+#card1{
+    grid-column: 1/2;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px 1px 4px 1px #888;
+}
+#card2{
+    grid-column: 2/3;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px 1px 4px 1px #888;
+}
+#card3{
+    grid-column: 3/4;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px 1px 4px 1px #888;
+}
+img{
+    align-content: center;
+    max-width: 600px;
+    max-height: 700px;
+}
+#footer{
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #6c9be2;
+}
+footer{
+    color:black;
+    display: block;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+    background-color: #e5e5e5;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    max-height: 150%;
+    max-width: 100%;
+}
