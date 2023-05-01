@@ -1,10 +1,13 @@
-@media only screen and (min-width: 32.5em) {
-    header {
-        font-size: 3.5em;
-        margin:auto
+@media only screen and (min-width: 32.5em) and (max-width: 64em) {
+    #example1 {
+        grid-template-columns: 50% 50%;
     }
-    main, footer{
-        font-size: 2em;
-        margin: 5px
+
+    #example2 {
+        grid-column: 2;
+    }
+
+    #example3 {
+        grid-column: 1/3;
     }
 }
