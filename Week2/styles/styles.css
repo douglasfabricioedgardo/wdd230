@@ -11,17 +11,18 @@ body {
     font-family: var(--paragraph-font); 
 }
 
-
-header{
-    display: block;
+header {
     margin-bottom: 20px;
-    align-items: center;
-    align-content: space-around;
-    text-align: center;
+}
+header, footer{
     background-color: #90abedf6;
+    color: rgb(9, 9, 9);
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
     box-shadow: 10px 10px 40px 10px #90abedf6;
-    max-height: 300%;
-    max-width: 200%;
     font-family: var(--heading-font);
 }
 main {
@@ -79,12 +80,9 @@ img {
 
 footer {
     color:black;
-    display: block;
-    align-items: center;
-    align-content: space-around;
-    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
     background-color: #90abedf6;
     box-shadow: 5px 5px 20px 5px #494d53;
-    max-height: 150%;
-    max-width: 100%;
+    
 }
