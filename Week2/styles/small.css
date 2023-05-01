@@ -1,5 +1,5 @@
 @media only screen and (max-width: 32.5em) {
-    #example1 {
+    #main {
         grid-template-columns: 100%;
     }
     
