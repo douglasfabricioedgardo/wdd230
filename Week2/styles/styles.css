@@ -10,11 +10,7 @@ body {
     margin-right: auto;
     font-family: var(--paragraph-font); 
 }
-#description{
-    display: block;
-    align-items: center;
-    text-align: center;
-}
+
 
 header{
     display: block;

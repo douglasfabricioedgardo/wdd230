@@ -2,11 +2,12 @@
     #example1 {
         grid-template-columns: 100%;
     }
-
+    
     #example2 {
         grid-column: 1;
+        
     }
-
+    
     #example3 {
         grid-column: 1;
     }

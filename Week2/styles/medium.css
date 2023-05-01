@@ -2,11 +2,12 @@
     #example1 {
         grid-template-columns: 50% 50%;
     }
-
+    
     #example2 {
         grid-column: 2;
+        
     }
-
+    
     #example3 {
         grid-column: 1/3;
     }
