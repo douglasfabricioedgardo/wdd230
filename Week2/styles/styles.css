@@ -50,18 +50,21 @@ div h2 {
 
 #example1 {
     grid-column: 1;
-   
+    background-color: #90abedf6;
+    box-shadow: 5px 5px 20px 5px #494d53;
 }
 
 #example2 {
     grid-column: 2;
-   
+    background-color: #90abedf6;
+    box-shadow: 5px 5px 20px 5px #494d53;
     
 }
 
 #example3 {
     grid-column: 3;
-    
+    box-shadow: 5px 5px 20px 5px #494d53;
+    background-color: #90abedf6;
 }
 
 div p {
