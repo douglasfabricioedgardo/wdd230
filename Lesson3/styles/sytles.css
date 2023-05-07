@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&family=Passion+One&display=swap');
+:root{
+    --heading-font: "Passion One";
+    --paragraph-font: "Chivo Mono";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--paragraph-font)
+}
+
+header,
+footer {
+  background-color: #1a4a6a;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: aliceblue;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+	text-align: center;
+	font-family: var(--heading-font);
+    color:#c5c66b
+}
+
+h2 {
+	padding: .5rem;
+	color: #1a4a6a;
+	text-align: center;
+	font-weight: 200;
+    font-family: var(--heading-font);
+	
+}
+
+p {
+	padding: .5rem;
+	text-align: justify;
+  	text-justify: inter-word;
+    font-family: var(--paragraph-font);
+}
+
+nav {
+	background-color: #F4A719;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #3B383A;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #3B383A;
+	color: #F4A719;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	font-size: 0.85rem;
+}
+
+main img {
+	display: block;
+	margin: 0 auto;
+}
+
+main article {
+	margin: 1rem;
+}
+
+footer {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	font-weight: 700;
+}
+
+.colors {
+	width: 100%;
+	min-width: 350px;
+	margin: 30px auto;
+	text-align: center;
+  }
+  .colors th {
+	background-color: #999;
+  }
+  .colors td{
+	width: 25%;
+	height: 3em;
+	color: white;
+  }
+  
+  .primary {
+	background-color: #F4A719;
+  }
+  .secondary {
+	background-color: #1a4a6a;
+  }
+  .accent1 {
+	background-color: #3B383A;
+  }
+  .accent2{
+	background-color: #c5c66b;
+  }
+
+
+
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+	main article:nth-child(3) {
+		grid-column: span 2;
+		
+	}
+}
+
+@media (min-width: 68em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	main article:nth-child(3) {
+		grid-column: span 1;
+		
+	}
+}
