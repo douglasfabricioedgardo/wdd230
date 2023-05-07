@@ -47,25 +47,7 @@ div h2 {
     font-size: 98%
 }
 
-#example1 {
-    grid-column: 1;
-    
-    background-color: #90abedf6;
-    box-shadow: 5px 5px 20px 5px #494d53;
-}
 
-#example2 {
-    grid-column: 2;
-    background-color: #90abedf6;
-    box-shadow: 5px 5px 20px 5px #494d53;
-    
-}
-
-#example3 {
-    grid-column: 3;
-    box-shadow: 5px 5px 20px 5px #494d53;
-    background-color: #90abedf6;
-}
 
 div p {
     padding: 5px;
@@ -85,4 +67,41 @@ footer {
     background-color: #90abedf6;
     box-shadow: 5px 5px 20px 5px #494d53;
     
+}
+
+section {
+    display: block;
+    background-color: #90abedf6;
+    margin: 0.5rem;
+	border: 1px solid #322d2ff6;
+	padding: 0 1rem;
+    border-radius: 15px 15px 0px 0px
+    
+
+}
+section h2, p{
+    color: whitesmoke;
+}
+section h2{
+    background-color: #322d2ff6;
+}
+
+/* table views ******************************/
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .third-principle {
+        grid-column: span 2;
+    }    
+}
+
+/* Desktop views ******************************/
+@media only screen and (min-width: 68em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .third-principle {
+        grid-column: span 1;
+    }
 }
