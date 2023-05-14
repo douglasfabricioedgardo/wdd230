@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&family=Passion+One&display=swap');
+:root{
+    --heading-font: "Passion One";
+    --paragraph-font: "Chivo Mono";
+}
+h1 {
+font-family: var(--heading-font);
+}
+body {
+	padding: 0;
+	margin: 0;
+    font-family: var(--paragraph-font);
+    background-color: #fff;
+}
+
+header {
+	background-color: #F4A719;
+	padding: 5px 0;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+header picture img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+    background: black;
+    color: #F4A719;
+    border: 4px solid #1a4a6a;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+	font-style: var(--paragraph-font);
+    letter-spacing: 1pt;
+	color: #c5c66b;
+	font-size: .9rem;
+    margin-left: 20px;
+}
+
+header nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #1a4a6a;;
+}
+
+header nav {
+    background-color: black;
+    width: 100%;
+   
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #F4A719;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li.active a {
+    background-color: #F4A719;
+    color: black;
+}
+
+header nav ul li a:hover {
+    background-color: #F4A719;
+    color: black;
+}
+
+header nav ul {
+    display: none;
+}
+
+header nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1){display: block;}
+#hamburgerBtn span:nth-child(2){display: none;}
+
+#hamburgerBtn.open span:nth-child(1){display: none;}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+time {
+	margin: 0.5rem;
+	border: 4px solid #3B383A;
+	padding: 0.75rem 1rem;
+	background-color: #1a4a6a;
+    color: #F4A719;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 20px 10px;
+}
+
+div {
+    /* padding: 20 auto; */
+    border: 4px solid #3B383A;
+    height: 150px;
+    background-color: #1a4a6a;
+    color: #F4A719;
+    margin: 2vw;
+}
+
+section {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #eee;
+    margin: 2vw;
+}
+
+div p {
+    margin-left: 2vw;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+	background-color: #F4A719;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    
+}
+
+footer p {
+    margin: 5px auto;
+}
+
+footer h2 {
+    margin: 5px auto;
+}
+
+footer picture {
+ padding: 10px;
+}
+
+
+/* Larger viewports */
+@media only screen and (min-width: 32.5em) {
+	header picture img {
+		width: 100%;
+	}
+
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.motto {
+		letter-spacing: 1.5pt;
+		font-size: larger;
+        margin-left: 17px;
+	}
+}
+
