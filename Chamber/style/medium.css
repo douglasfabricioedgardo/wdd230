@@ -1,21 +1,33 @@
 /* 35rem is also 560px when basefont is 16px*/
 @media only screen and (min-width: 35rem) {
-    
     header nav button {
-        display: inline-block;
+        display: none;
     }
 
-    header picture img {
-        grid-column: 1/2;
+    header img {
         size: 128px;
     }
 
-
-    header time {
-        width: 94%;
-      
-        grid-row: 2;
+    header div h1{
+        font-size: 5em;
     }
 
-  }
+    .top-bar {
+        display: flex;
+    }
+
+
+    header nav ul#primaryNav {
+      display: flex;
+      margin-left: 2vw;
+      border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
   
+    header nav ul li a{
+      border-top: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    
+
+  }
