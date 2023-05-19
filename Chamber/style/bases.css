@@ -6,10 +6,11 @@
 h1 {
 font-family: var(--heading-font);
 }
+
 body {
 	padding: 0;
 	margin: 0;
-    font-family: var(--paragraph-font);
+    
     background-color: #fff;
 }
 
@@ -20,6 +21,9 @@ header {
     flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+p {
+    font-family: var(--paragraph-font);
 }
 
 header picture img {
@@ -40,13 +44,7 @@ header picture img {
     margin: 0 0 0 17px;
 }
 
-.motto {
-	font-style: var(--paragraph-font);
-    letter-spacing: 1pt;
-	color: #c5c66b;
-	font-size: .9rem;
-    margin-left: 20px;
-}
+
 
 header nav button{
     margin: .2rem 2vw;
