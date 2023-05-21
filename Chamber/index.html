@@ -1,73 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <meta name="author" content="Douglas f. Ramirez" >
-    <link rel="shortcut icon" href="images/favicon1.ico">
-    <meta
-      name="description"
-      content="Hn Chamber IT located In Honduras">
-    <title>HN CHAMBER IT</title>
-    <link rel="stylesheet" href="style/bases.css" >
-    <link rel="stylesheet" href="style/medium.css" >
-    <link rel="stylesheet" href="style/large.css" >
-  </head>
-  <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HN CHAMBER IT</title>
+        <meta name="description" content="This page is the homepage of HN CHAMBER IT.">
+        <meta name="author" content="Douglas f. Ramirez">
+        <link rel="icon" href="favicon1.ico">
+        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="style/bases.css">
+        <link rel="stylesheet" href="style/medium.css">
+        <link rel="stylesheet" href="style/large.css">
+    </head>
+<body>
     <header>
-        <picture>
-            <img
-              src="images/1.png" alt="World"> 
-          </picture>
-      <section class="headings">
-        <h1>HN CHAMBER IT</h1>
-        
-      </section>
-      <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-          <li><a href="#"><h1>Discovery</h1></a></li>
-          <li><a href="#"><h1>Directory</h1></a></li>
-          <li><a href="#"><h1>Join</h1></a></li>
-          <li><a href="#"><h1>Contact</h1></a></li>
-          <li><a href="https://www.linkedin.com/feed/"><img src="images/2.png" alt="1"></a></li>
-          <li><a href="https://www.facebook.com/"><img src="images/3.png" alt="2"></a></li>
-          <li><a href="https://twitter.com/home"><img src="images/twiter.png" alt="3"></a></li>
-          <li><a href="https://wa.link/9afgee"><img src="images/what.png" alt="4"></a></li>
-        </ul>
-      </nav>
-     
+        <div class="main_header">
+            <div id="logo">
+                <picture><img src="images/1.png" alt="Logo"></picture>
+                    <div>
+                    <h1>HN CHAMBER IT</h1>
+                    <h2>#1 IN TECNOLOGY</h2>
+                    </div>
+                </div>
+            <div id="social_media">
+                <a href="https://www.facebook.com/" ><picture><img src="images/facebook.png" alt="Facebook Logo"></picture></a>
+                <a href="https://www.linkedin.com/feed/"><picture><img src="images/linkedin.png" alt="Linkedin Logo"></picture></a>
+            </div>
+            <nav>
+                <button id="hamburger-button"><span>&#9776;</span><span>&#9776;</span></button>
+            </nav>
+            </div>
+            <nav>
+                <ul id="primary-nav">
+                    <li class="join"><a href="index.html"><p>Home</p></a></li>
+                    <li><a href="#"><p>Discover</p></a></li>
+                    <li><a href="#"><p>Directory</p></a></li>
+                    <li><a href="#"><p>Join</p></a></li>
+                    <li class="contact"><a href="#"><p>Contact</p></a></li>    
+                </ul>
+            </nav>
+            <div id="date_today">
+                <p><span id="announcement"></span></p>
+                <p class="current"><span id="current_date"></span></p>
+                <p><span id="visits"></span></p>
+        </div>
     </header>
     <main>
-      <div class="hero">
-        <p>Hero with site name and call to action</p>
-      </div>
-      <div class="event">
-        <p>Event</p>
-      </div>
-      <div class="weather"><p>Weather</p></div>
-      <div class="news"><p> News Release</p></div>
-      <section>
-        <h1></h1>
-        <div class="spotlight1"><p>Spotlight1</p></div>
-        <div class="spotlight2"><p>Spotlight2</p></div>
-      </section>
+        <div class="index-main">
+          <div class="featured">
+            <picture>
+                <source srcset="images/large.webp" media="(min-width: 560px) and (max-width: 1023px)">
+                <source srcset="images/large.webp" media="(min-width: 1023px)">
+                <img src="images/large.webp" alt="This is the hero image for this week">
+            </picture>
+            <h1><span>Welcome to HN CHAMBER IT</span></h1>
+                <button onclick="window.location.href='#'">JOIN HN CHAMBER</button>          
+        </div>
+            <div class="event">
+                <div class="event-content">
+                    <h1>Ribbon Cutting</h1>
+                <h2>💎The Diamond Shack</h2>
+                <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 P.M.</p>
+                <a href="#">more info...</a>
+            </div>
+            </div>
+            
+            <div class="right-column">
+              <h1>SPOTLIGHT</h1>
+                <div class="spotlight-business">
+
+                </div></div>
+            <div class="weather">
+                <h1>Weather</h1>
+<figure>
+    <div class="image-temp">
+  <img src="#" alt="" id="weather-icon">
+  <span id="current-temp"></span>
+</div>
+  <figcaption></figcaption>
+</figure>
+                <div class="information-weather">
+                    <h2>Wind Speed: <span id="wind-speed"></span></h2>
+                    <h2>Wind Chill:     <span id="windChill"></span></h2>
+                </div>
+            </div>
+            <div class="news-update">
+                <div class="news-content">
+                <h1>News Release</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in erat venenatis, venenatis velit sit amet, egestas enim. Nulla non porta felis, ut finibus ante. Nullam venenatis mauris id magna auctor, fermentum luctus massa porta. Integer blandit nunc ut mattis aliquam. Pellentesque vehicula libero sed dui vulputate aliquam. Suspendisse potenti. Cras eget risus non eros vestibulum venenatis id nec purus. Aliquam erat volutpat.</p>
+            </div>
+            </div>
+        <div class="join_here">
+            <div class="join-content">
+                <button onclick="window.location.href='#'">Join us!</button>
+            <p>
+                Discover how to join the chamber of commerce and how it will benefir your organization!
+                
+            </p>
+        </div>
+        </div>
+    </div>
     </main>
-    <footer>
-      <picture>
-        <img
-          src="images/1.png"
-          alt="World"> 
-      </picture>
-      <h2>HN CHAMBER IT</h2>
-      <p>Honduras, Tocoa</p>
-      <p>email@gmail.com</p>
-      <p>+504 98810405</p>
-      <p class="location"></p>
-      <h2>&copy; <span id="currentYear"></span>  HN CHAMBER IT| Douglas F. Ramirez | WDD 230 | Lesson 4 |Last Updated: <span id="lastUpdated"></span>  </h2>
-      
-    </footer>
+        <footer>
+            <div class="main_footer">
+                <div class="footer_logo">
+                    <picture>
+                    <img src="imageS/1.png" alt="LOGO">
+                </picture>
+                    <div class="address">
+                    <h2>HN CHAMBER IT</h2>
+                    <p>Adan funez Street900</p>
+                    <p>Tocoa, Colon, 504</p>
+                    </div>
+                </div>
+                <div class="contact_footer">
+                    <p>hnchamberit@email.com</p>
+                    <p>+504 98810405</p>
+                <div class="map_container">
+                    <div class="location_map">
+                        <a href="https://www.google.com/maps/@15.6572953,-85.9991742,14z">
+                            <picture>
+                            <img src="images/location.png" alt="Location Map"></picture></a>
+                        
+                          <a href="https://www.google.com/maps/@15.6572953,-85.9991742,14z"><p>Location Map</p></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="footer_info_small">
+                <div class="copyright"><span id="copyright"></span> HN CHAMBER IT
+                <h3>DOUGLAS F. RAMIREZ</h3>
+                <p>WDD 230 Project</p>
+                <p>Last Modification: <span id="lastupdate"></span></p>
+            </div></div>
+            <div class="footer_info_medium">
+                <div class="copyright"><span id="copyright1"></span> HN CHAMBER IT | Douglas F. Ramirez | WDD 230 Project
+                <p>Last Modification: <span id="lastupdate1"></span></p>
+            </div></div>
+            <div class="footer_info_large">
+                <h2><div class="copyright"><span id="copyright2"></span> HN CHAMBER IT | Douglas F. Ramirez | WDD 230 Project | Last Modification: <span id="lastupdate2"></span></h2>
+            </div></div>      
+                </footer>
+    
     <script src="scripts/scripts.js"></script>
-  </body>
+    
+</body>
 </html>
