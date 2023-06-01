@@ -5,13 +5,14 @@ body {
 
 h1 {
     text-align: center;
+    color: #87CEEB;
 }
 
 img {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
-    border: thin solid rgb(0,0,0,0.3);
+    border: 5px solid #87CEEB;
     width: 300px;
     height: 400px;
 }
