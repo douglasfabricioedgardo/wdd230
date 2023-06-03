@@ -459,6 +459,13 @@ h1 span {
 
 
 }
+.discover-main img {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+
 .discover-main p {
     color: #fff;
     font-size: 20px;
