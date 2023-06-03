@@ -450,9 +450,18 @@ h1 span {
     width: 100%;
 }
 
+
 .discover-main, .first-image, .second-image, .third-image, .fourth-image, .fifth-image {
     display: grid;
     padding: 10px;
+    background-color: #1a4a6a;
+    border: 10px solid #F4A719;
+
+
+}
+.discover-main p {
+    color: #fff;
+    font-size: 20px;
 }
 
 .discover-main img {
