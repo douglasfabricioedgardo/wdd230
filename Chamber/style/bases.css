@@ -247,6 +247,7 @@ footer p, a {
 
 .location_map img{
     width: 40px;
+    height: 40px;
 }
 
 .footer_info_small {
@@ -807,7 +808,7 @@ section a {
   }
 
   .social-contact img {
-    width: 40px;
+    width: 30px;
     padding-left: 5px;
   }
 
