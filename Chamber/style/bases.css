@@ -495,8 +495,8 @@ textarea {
 }
 input[type=submit] {
     padding: 10px;
-    background-color: #1a4a6a;
-    color: white;
+    background-color: #F4A719;
+    color: #1a4a6a;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -507,25 +507,32 @@ input[type=submit] {
     font-family: 'Nunito', sans-serif;
     width: 90%;
     margin: 0 auto;
+    background-color: #1a4a6a;
+    color: #fff;
+    
 }
 
 .form-box {
     display: flex;
     flex-direction: column;
+    
 }
 
 form {
     width: 100%;
     position: relative;
+   
 }
 
 .join-main h1 {
     color: black;
     text-align: center;
+    border: 5px solid #F4A719;
 }
 
 main {
     padding: 10px;
+    background-color: antiquewhite;
 }
 
 .thankyou-main {
@@ -535,16 +542,27 @@ main {
     padding: 10px;
     margin-bottom: 100px;
     margin-top: 100px;
+    background-color: #1a4a6a;
+    border: 7px solid #F4A719;
+    
+}
+.thankyou-main h1 {
+    color: #fff;
+}
+.thankyou-main h2 {
+    color: #F4A719;
 }
 
 .thankyou {
     color: black;
     font-family: 'Nunito', sans-serif;
     text-align: center;
+    
 }
 
 form label {
     display: none;
+   
 }
 
 .join-main h1 {
