@@ -1,0 +1,82 @@
+.hidden {
+    display: none;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  label {
+    font-family: sans-serif;
+  }
+  h1{
+    color: #1a4a6a;
+  }
+  section {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #F4A719;
+    border: 6px solid #1a4a6a;
+  }
+  
+  .filter {
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    padding: 10px;
+    font-family: sans-serif;
+    border-top: 6px solid #1a4a6a;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  body {
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  section img {
+    object-fit: cover;
+    width: 100%;
+    object-position: 0px 10%;
+    border: 4px solid #1a4a6a;
+   
+  }
+  
+  h1 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .filter {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .my-button {
+    background-color: #F4A719;
+    color: black;
+    padding: 5px 15px;;
+    font-size: 16px;
+    cursor: pointer;
+    border: 4px solid #1a4a6a;
+    margin-top: 5px;
+  }
+  
+  .my-button:hover {
+    background-color: #bd841a;
+    color: white;
+  }
