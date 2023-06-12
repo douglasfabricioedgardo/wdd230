@@ -46,6 +46,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 10px;
+    color: whitesmoke;
+  }
+  .cards h2{
+    color: #1a4a6a;
   }
   
   section img {
@@ -53,12 +57,14 @@
     width: 100%;
     object-position: 0px 10%;
     border: 4px solid #1a4a6a;
+    
    
   }
   
   h1 {
     padding-bottom: 10px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 4px solid #1a4a6a;
+    
   }
   
   .filter {
