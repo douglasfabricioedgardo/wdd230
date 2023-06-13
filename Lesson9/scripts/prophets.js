@@ -47,9 +47,10 @@ const displayProphets = (prophets) => {
     const cards = document.querySelectorAll('div.cards section');
     cards.forEach((card) => {
       const yearsServed = card.querySelector('h3').innerHTML.match(/Years served: (\d+)/)[1];
-      if (yearsServed >= 10) {
+      if (yearsServed < 10) {
         card.classList.toggle('hidden');
       }
     });
+
   });
 }; // end of function expression
