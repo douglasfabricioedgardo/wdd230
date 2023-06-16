@@ -739,6 +739,7 @@ section a {
     display: flex;
     justify-content: center;
     align-items: center;
+   
   }
 
   div.list h3.full-address {
