@@ -684,7 +684,7 @@ section a {
     align-items: center;
     margin: 0;
     padding: 0.25rem;
-    border: none;
+    border: 5px solid #1a4a6a;
   }
   
   .list section > * {
@@ -703,7 +703,8 @@ section a {
   }
   
   .list section:nth-child(even) {
-    background-color: #1a4a6a;
+    background-color: #F4A719;
+    color: #1a4a6a;
   }
   
   .list h1,
