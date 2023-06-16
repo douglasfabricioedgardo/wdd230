@@ -16,7 +16,7 @@
         "location": "Mall. Mega Plaza",
         "service": "Celular shop",
         "website": "https://www.facebook.com/aithonduras",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Kareha%20Autoworks%20Auto%20Repair%20Shop.JPG",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/2ad.jpg",
         "member_status": "silver"
         },
         {
@@ -25,7 +25,7 @@
         "location": "Street Alfredito and avenue maxi depensa",
         "service": "Internet Service",
         "website": "https://www.facebook.com/tevisat",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Leandro's%20Specialties.jpg",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/3ad.png",
         "member_status": "gold"
         },
         {
@@ -34,7 +34,7 @@
         "location": "Ward San Isidro",
         "service": "Internet Service",
         "website": "https://www.facebook.com/CableColorHonduras",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Lou%20Catering%20Services.jpg",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/4ad.jpg",
         "member_status": "silver"
         },
         {
@@ -43,7 +43,7 @@
         "location": "Ward La Esperanza",
         "service": "Internet Service",
         "website": "http://www.tigo.com.hn/",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Kentdell%20Plumbing%20and%20Electrical%20Services.jpg",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/6ad.png",
         "member_status": "gold"
         },
         {
@@ -52,7 +52,7 @@
         "location": "Steet colon, Avenue La Esperanza",
         "service": "Internet Service",
         "website": "https://www.facebook.com/clarohonduras",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Landor%20Septic%20Tank%20Excavator%20and%20Plumbing%20Services.jpg",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/5ad.png",
         "member_status": "silver"
         },
         {
@@ -61,7 +61,7 @@
         "location": "Mall. Mega Plaza SPS",
         "service": "sale of household products",
         "website": "https://www.ladylee.net/?fbclid=IwAR24MxxKpr6xERnKuyi_WwmF8IbROp1i4sgR3aVrpjmB-qeSgeAUz8i_ABM",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/BJR%20Computer%20Solutions.jpg",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/7ad.jpg",
         "member_status": "gold"
         },
         {
@@ -70,7 +70,7 @@
         "location": "arrio el centro esquina opuesta al edificio makelo, Tocoa, Honduras",
         "service": "Computer Repair",
         "website": "https://www.facebook.com/profile.php?id=100063774231997",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/FIXMYMAC.jpg",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/ad8.jpg",
         "member_status": "silver"
         },
         {
@@ -79,7 +79,7 @@
         "location": "Street x, avenue 356",
         "service": "Computer Repair",
         "website": "https://www.technosdesign.com/?fbclid=IwAR2h-NGwZSIfJ9c8fMhC3ojuQNsd_fAf5sdS_MHmXZ5UCDjuGtTMfXrQycY",
-        "image": "https://raw.githubusercontent.com/eskeme/wdd230/main/chamber/images/Hub101%20Computer%20Systems.jpg",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/9ad.jpg",
         "member_status": "gold"
         }
     ]
