@@ -2,7 +2,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Davao%20City&units=metric&appid=34e197cd5ba229b3c1bfe4f44829a8a8';
+const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=managua&units=metric&appid=eb62be483b069ca0c752ef1f2c028508';
 
 async function apiFetch() {
   try {
