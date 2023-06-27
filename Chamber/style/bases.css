@@ -240,6 +240,9 @@ footer p, a {
     margin: auto;
 
 }
+.address h2{
+    margin-top: 4px;
+}
 
 .map_container{
     display: flex;
@@ -809,6 +812,14 @@ section a {
 
   .spotlight-business section:nth-child(3) {
     display: none;
+  }
+  .spotlight-business h2 {
+    color: #1a4a6a;
+    border-bottom: 4px solid #1a4a6a;
+  }
+  .spotlight-business section {
+    background-color: #F4A719;
+    border: 6px solid #1a4a6a;
   }
 
   .join-main {

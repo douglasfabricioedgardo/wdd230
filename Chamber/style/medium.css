@@ -275,4 +275,13 @@
         font-family: 'Nunito', sans-serif;
         text-align: left;
       }
+
+      .spotlight-business h2 {
+        color: #1a4a6a;
+        border-bottom: 4px solid #1a4a6a;
+      }
+      .spotlight-business section {
+        background-color: #F4A719;
+        border: 6px solid #1a4a6a;
+      }
 }
