@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HN CHAMBER IT Discover</title>
+        <title>HN CHAMBER IT</title>
         <meta name="description" content="This page is the homepage of HN CHAMBER IT.">
         <meta name="author" content="Douglas f. Ramirez">
         <link rel="icon" href="images/favicon1.ico">
@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="style/medium.css">
         <link rel="stylesheet" href="style/large.css">
     </head>
-    
 <body>
     <header>
         <div class="main_header">
@@ -41,46 +40,58 @@
                 </ul>
             </nav>
             <div id="date_today">
+                
                 <h2 class="current"><span id="current_date"></span>.</h2>
                 <h2><span id="announcement"></span>.</h2>
                 <h2><span id="visits"></span>.</h2>
         </div>
     </header>
     <main>
-        <div class="discover-main">
-            <div class="first-image">
-                <p>Honduras is a Central American country with Caribbean Sea coastlines to the north and the Pacific Ocean to the south. In the tropical rainforest near Guatemala, the ancient Mayan ceremonial site Copán has stone-carved hieroglyphics and stelae, tall stone monuments. In the Caribbean Sea are the Bay Islands, a diving destination that's part of the 1,000km-long Mesoamerican Barrier Reef Honduras's population is 10.28 million(2021).</p>
-            <picture>
-                <img data-src="images/Honduras1.jpg" src="images/honduras1.jpg" alt="Honduras">
-            </picture>
-                <p>This is a photo of the capital of Honduras with part of its landscape.</p>
+        <div class="contact-main">
+            <div class="contact-left">
+                <div class="contact-form">
+                    <h2>CONTACT FORM</h2>
+                    <form method="get" action="thankyou.html">
+            
+                        
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Name">
+                        
+                        
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="Email Address">
+                        
+                        
+                        <label for="question">Questions/Concerns</label>
+                        <textarea id="question" name="question" required placeholder="Questions/Concerns"></textarea>
+                        
+                        <input type="submit" value="Submit" style="margin-top: 20px;">
+                      </form>
+                </div>
+            <div class="map-location">
+
             </div>
-            <div class="second-image">
-            <picture>
-                <img data-src="images/sps.jpg" src="images/sps.jpg" alt="SPS">
-            </picture>
-            <p>This is a photo of San Pedro sula which is the industrial capital of Honduras.</p>
             </div>
-            <div class="third-image">
-            <picture>
-                <img data-src="images/ceiba.jpeg" src="images/ceiba.jpg" alt="La Ceiba">
-            </picture>
-            <p>This is an image of La Ceiba, which is considered the bride of Honduras for its beauty, especially on its beaches.</p>
-            </div>
-            <div class="fourth-image">
-            <picture>
-                <img data-src="images/puerto.jpeg" src="images/puerto.jpg" alt="Puerto Cortes">
-            </picture>
-            <p>This is an image of Puerto Cortes which is considered the most important port in Honduras and within the commercial industry of the country.</p>
-            </div>
-            <div class="fifth-image">
-            <picture>
-                <img src="images/tocoa.jpg" data-src="images/tocoa.jpeg" alt="Tocoa">
-            </picture>
-            <p>This is an image of Tocoa is my city where I live, which is considered the city of the African Palm since it produces a large market for this content.</p>
+            <div class="contact-information">
+                <h2>Contact us</h2>
+                <h3>Address</h3>
+                <p>HN CHAMBER IT<br>Adan funez Street 900<br>Tocoa, Honduras, 504</p>
+                <p>Phone</p>
+                <h4>+504 98810405</h4>
+                <p>Email</p>
+                <h4>hnchamberit@email.com</h4>
+                <div class="social-contact">
+                    <a href="https://www.facebook.com/" ><picture><img src="images/facebook.png" alt="Facebook Logo"></picture></a>
+            <a href="https://www.linkedin.com/feed/"><picture><img src="images/linkedin.png" alt="Linkedin Logo"></picture></a>
+            <a href="https://www.google.com/maps/place/Tocoa/@15.6559363,-85.9885759,19z/data=!4m6!3m5!1s0x8f6bcbe684849eeb:0x827c147826f4875f!8m2!3d15.6576354!4d-85.9968479!16zL20vMDc1Mno3?entry=ttu"><picture><img src="images/location.png" alt="Location Logo"></picture></a>
+                </div>
             </div>
         </div>
-    </main>
+</main>
+
+
+
+
     <footer>
         <div class="main_footer">
             <div class="footer_logo">
@@ -123,7 +134,11 @@
             </footer>
 
 <script src="scripts/scripts.js"></script>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/directory.js"></script>
+
+
 
 </body>
 </html>
+
+
