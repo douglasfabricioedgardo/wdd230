@@ -118,6 +118,12 @@ nav button {
     color: whitesmoke;
     margin-top: 45px;
     margin-left: -14px;
+    
+}
+
+.enlace:hover {
+    color: #1a4a6a; 
+    border-block-start-color: #F4A719;
 }
 
 nav ul {
@@ -139,13 +145,15 @@ nav ul li a {
     border-bottom: thin solid rgba(255,255,255,0.1);
 }
 
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+nav ul li a:hover  {
+    background-color: #1a4a6a;
+    color: #ff9d00;
+    color: black;
 }
 
-nav ul li.join a {
-    background-color: rgba(0,0,0,0.3);
-    color: #fff;
+nav ul li.join  a{
+    background-color: #1a4a6a;
+    
 }
 
 nav ul {

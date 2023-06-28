@@ -102,27 +102,8 @@
         width: 800px;
     }
 
-    .name {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
+ 
 
-    .name input {
-        width: 292px;
-        padding-left: 10px;
-    }
-
-    .contact {
-        display: flex;
-        flex-direction: row;
-        gap: 30px;
-    }
-
-    .contact input {
-        width: 300px;
-        padding-left: 10px;
-    }
 
     .businesses {
         width: 70%;
