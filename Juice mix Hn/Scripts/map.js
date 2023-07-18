@@ -1,19 +1,20 @@
+const apiKey = "AIzaSyAa2Vrjh6ASPvQyMWaknXTyoi5c5L-N7jE";
+const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&appid=${apiKey}&units=imperial`;
 
-const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=Tocoa%2C+Hn&appid=$eb62be483b069ca0c752ef1f2c028508}&units=imperial`;
-
-
+// Initialize the map
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 15.650770, lng:  -86.012248 },
+    center: { lat: 33.158093, lng: -117.350594 },
     zoom: 10,
   });
   const marker = new google.maps.Marker({
-    position: { lat: 15.650770, lng:  -86.012248 },
+    position: { lat: 33.158093, lng: -117.350594 },
     map: map,
-    title: "Tocoa",
+    title: "Carlsbad",
   });
 }
 
+// Update the weather display
 function updateWeatherDisplay(data) {
   const weatherDisplay = document.getElementById("weather-display");
   weatherDisplay.innerHTML = `
