@@ -1,3 +1,5 @@
+const apiKey = "eb62be483b069ca0c752ef1f2c028508";
+const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=Tocoa%2C+Hn&appid=${apiKey}&units=imperial`;
 
 
 function initMap() {
