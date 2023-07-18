@@ -334,7 +334,7 @@ nav {
   }
 
   .grid-item:nth-child(3) {
-	background-image: url('../images/frutas.jpg');
+	background-image: url('../images/frutas.webp');
 	background-size: cover;
     background-repeat: no-repeat;
 	border:solid 7px #ffa626;
@@ -342,7 +342,7 @@ nav {
   }
 
   .grid-item:nth-child(1) {
-	background-image: url('../images/weather.jpg');
+	background-image: url('../images/weather.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border:solid 7px #ffa626;
@@ -427,7 +427,7 @@ div label, div input {
   }
 
   .grid-item:nth-child(4) {
-	background-image: url('../images/222.jpg');
+	background-image: url('../images/222.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border:solid 7px #ffa626;
