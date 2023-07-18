@@ -2,7 +2,7 @@ const currentTemp = document.querySelector("#current-temp");
 const captionDesc = document.querySelector("#caption-desc");
 const forecastDays = document.querySelector(".weather-card__forecast-days");
 
-const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=managua&units=metric&appid=eb62be483b069ca0c752ef1f2c028508';
+const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Tocoa%2C+Hn&units=metric&appid=eb62be483b069ca0c752ef1f2c028508';
 const forecastUrl = "http://api.openweathermap.org/data/2.5/forecast?id=3600704&appid=eb62be483b069ca0c752ef1f2c028508";
 async function apiFetch(url) {
   try {
