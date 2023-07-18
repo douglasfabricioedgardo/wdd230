@@ -3,7 +3,7 @@ const captionDesc = document.querySelector("#caption-desc");
 const forecastDays = document.querySelector(".weather-card__forecast-days");
 
 const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Tocoa%2C+Hn&units=metric&appid=eb62be483b069ca0c752ef1f2c028508';
-const forecastUrl = "http://api.openweathermap.org/data/2.5/forecast?id=3600704&appid=eb62be483b069ca0c752ef1f2c028508";
+const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=metric&appid=34e197cd5ba229b3c1bfe4f44829a8a8";
 async function apiFetch(url) {
   try {
     const response = await fetch(url);
@@ -57,8 +57,8 @@ function displayForecast(forecastData) {
     .filter((data, index) => index % 8 === 0)
     .map((day) => {
       const dayOfWeek = new Date(day.dt * 1000).toLocaleDateString("en-US", { weekday: "short" });
-      const minTemp = Math.round(day.main.temp_min)/10;
-      const maxTemp = Math.round(day.main.temp_max)/10;
+      const minTemp = Math.round(day.main.temp_min);
+      const maxTemp = Math.round(day.main.temp_max);
       return `<div class="weather-card__forecast-day">
                 <div>${dayOfWeek}</div>
                 <div>${minTemp}&deg;C / ${maxTemp}&deg;C</div>
