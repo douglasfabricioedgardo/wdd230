@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juice Mix HN</title>
+<link rel="icon" href="images/favicon.ico">
+<link rel="stylesheet" href="style/normalize.css">
+<link rel="stylesheet" href="style/bases.css">
+<link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
+ </head>
+ <body>
+    <header>
+        <div class="logo">
+            <button id="hamburger-button"><span>&#9776;</span><span>&#9776;</span></button>
+            <img src="images/logo.webp" alt="Business Logo">
+            <div class="info">
+                <h1>Juice Mix Hn</h1>
+                <p>123 avelard, Tocoa Hn<br>Phone: (+504) 9881-0405</p>
+            </div>
+        </div>
+        <ul id="secondary-nav">
+            <li class="site" ><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/home"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a>
+        </div>
+    </header>
+    <nav>
+        <ul id="primary-nav">
+            <li class="site"><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="welcome">
+        <p>Welcome to our website! Today is <strong id="date"></strong>.</p>
+    </div>
+    <div class="grid-container" loading="lazy">
+        <div class="grid-item">
+            <div class="weather-card">
+                <div class="weather-card__current">
+                  <div class="weather-card__current-temp">
+                    <br>
+                    <span id="current-temp"></span>
+                  </div>
+                  <div class="weather-card__current-icon">
+                    <span id="caption-desc"></span>
+                  </div>
+                </div>
+                <div class="weather-card__forecast">
+                  <h1>3-Day Forecast</h1>
+                  <div class="weather-card__forecast-days"></div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="grid-item" loading="lazy">
+            <div class="featured">
+                <h2>Discover the True Essence of Nature in Every Sip</h2>
+                <p>At Juice Nature, we believe that the best things in life are natural, and our passion lies in bringing you the
+                   purest and most refreshing juices that nature has to offer. Nestled in the heart of Tocoa, our store is a sanctuary
+                    for juice enthusiasts, health-conscious individuals, and anyone seeking a revitalizing experience.</p>
+            </div>
+        </div>
+        <div class="grid-item" loading="lazy">
+            <div class="cta">
+                <button onclick="window.location.href='fresh.html'">Make Fruit Drink Mix</button>
+              </div>
+        </div>
+        <div class="grid-item" loading="lazy">
+            <div class="count">
+            <h2>Total drinks submitted: <span id="drink-count"></span></h2>
+        </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-contain">
+            <div class="logo1">
+                <img src="images/logo.webp" alt="Business Logo">
+                <div class="info1">
+                    <h1>Juice Mix Hn</h1>
+                    <p>123 avelard, Tocoa Hn<br>Phone: (+504) 9881-0405</p>
+                </div>
+            </div>
+        <div class="contact-info">
+          <p>Email: mixhn@gmail.com</p>
+          <p>Phone: +504 9881-0405</p>
+        </div>
+    </div>
+        <div class="copyright">
+          <p>&copy; Juice mix HN | Last updated: <span id="last-updated"></span></p>
+        </div>
+      </footer>
+      <script src="scripts/drinkcount.js"></script>
+    <script src="scripts/welcomemessage.js"></script>
+    <script src="scripts/weathercard.js"></script>
+ </body>
+</html>
