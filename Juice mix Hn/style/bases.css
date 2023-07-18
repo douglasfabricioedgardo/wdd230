@@ -123,9 +123,10 @@ header {
 	font-size: 14px;
 	font-weight: bold;
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
-    margin-top: 115px;
+    margin-top: 125px;
 	border-radius: 40px;
 	border:solid 1px #8b4513;
+	margin-bottom: 20px;
 	
 }
 
@@ -367,10 +368,18 @@ nav {
 .fresh-form {
 	width: 30%;
 	margin: 0 auto;
+	color: black;
+    background-color: #fedf00;
+	border: solid 7px black;
+	border-radius: 20px;
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
 }
-
+.fresh-form h2{
+	border-bottom: solid 7px black;
+}
 form {
+	background-color: #fedf00;
+	
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
 }
 
@@ -380,9 +389,10 @@ form {
 
 .fresh-form button {
     display: block;
+	border-radius: 100px;
+	border: solid 1px #8b4513;
     background-color: #7ED957;
     padding: 10px 20px 10px 20px;
-    border: none;
     font-weight: 400;
     width: 40%;
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
@@ -449,6 +459,24 @@ div label, div input {
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
   }
   
+  #history h2{
+	border-bottom: solid 4px black;
+	text-align: center;
+  }
+  #history{
+	background-color: #ffa626;
+	border: solid 2px black;
+	margin-bottom: 20px;
+  }
+  #contact h2{
+	border-bottom: solid 4px black;
+	text-align: center;
+  }
+ #contact{
+	background-color: #7ED957;
+	border: solid 2px black;
+	margin-bottom: 20px;
+ }
   @media screen and (max-width: 500px) {
 	.weather-card {
 	  flex-direction: column;
