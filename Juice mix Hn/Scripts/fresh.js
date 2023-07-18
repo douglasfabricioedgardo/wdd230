@@ -77,3 +77,4 @@ let drinkCount = localStorage.getItem("drinkCount");
 });
 
 fetchFruitData();
+

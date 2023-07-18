@@ -477,6 +477,34 @@ div label, div input {
 	border: solid 2px black;
 	margin-bottom: 20px;
  }
+
+
+ .anuncio-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: none; /* Ocultar el anuncio inicialmente */
+}
+
+.anuncio-content {
+    text-align: center;
+}
+
+#cerrarAnuncio {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.anuncio-container.active {
+    display: block; /* Mostrar el anuncio cuando esté activo */
+}
+ 
   @media screen and (max-width: 500px) {
 	.weather-card {
 	  flex-direction: column;
