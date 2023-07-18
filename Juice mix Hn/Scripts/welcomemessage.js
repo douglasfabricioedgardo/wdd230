@@ -21,7 +21,7 @@ function displayDate() {
   
   function initMap() {
     // Define the location of your business
-    const businessLocation = { lat: 33.160858, lng: -117.333303 };
+    const businessLocation = { lat: 15.650770, lng: -86.012248  };
   
     // Create a map centered on the business location
     const map = new google.maps.Map(document.getElementById("map"), {
