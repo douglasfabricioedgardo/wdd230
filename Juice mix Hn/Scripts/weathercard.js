@@ -3,7 +3,7 @@ const captionDesc = document.querySelector("#caption-desc");
 const forecastDays = document.querySelector(".weather-card__forecast-days");
 
 const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?q=Tocoa%2C+Hn&units=metric&appid=eb62be483b069ca0c752ef1f2c028508';
-const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&units=metric&appid=34e197cd5ba229b3c1bfe4f44829a8a8";
+const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?q=Tocoa%2C+Hn&units=metric&appid=eb62be483b069ca0c752ef1f2c028508";
 async function apiFetch(url) {
   try {
     const response = await fetch(url);
