@@ -21,7 +21,7 @@ function displayDate() {
   
   function initMap() {
     // Define the location of your business
-    const businessLocation = { lat: 15.650770, lng: -86.012248  };
+    const businessLocation = { lat: 15.654213, lng: -85.998769 };
   
     // Create a map centered on the business location
     const map = new google.maps.Map(document.getElementById("map"), {
@@ -33,7 +33,7 @@ function displayDate() {
     const marker = new google.maps.Marker({
       position: businessLocation,
       map: map,
-      title: "Your Business Name",
+      title: "Juice Mix HN",
     });
   }
   
