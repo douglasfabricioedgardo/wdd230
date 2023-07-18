@@ -57,8 +57,8 @@ function displayForecast(forecastData) {
     .filter((data, index) => index % 8 === 0)
     .map((day) => {
       const dayOfWeek = new Date(day.dt * 1000).toLocaleDateString("en-US", { weekday: "short" });
-      const minTemp = Math.round(day.main.temp_min)/10;
-      const maxTemp = Math.round(day.main.temp_max)/10;
+      const minTemp = Math.round(day.main.temp_min);
+      const maxTemp = Math.round(day.main.temp_max);
       return `<div class="weather-card__forecast-day">
                 <div>${dayOfWeek}</div>
                 <div>${minTemp}&deg;C / ${maxTemp}&deg;C</div>
