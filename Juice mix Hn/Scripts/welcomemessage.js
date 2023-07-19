@@ -25,7 +25,7 @@ function displayDate() {
   
     // Create a map centered on the business location
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 16,
+      zoom: 17,
       center: businessLocation,
     });
   
@@ -36,11 +36,12 @@ function displayDate() {
       title: "Juice Mix HN",
     });
   }
+
   
   // Load the Google Maps API script and call the initMap function when it's loaded
   (function () {
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyC7PC1BDod4JQcuPcOqOGdjEfz9YFhQUKo&callback=initMap`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyC7PC1BDod4JQcuPcOqOGdjEfz9YFhQUKoY&callback=initMap&v=weekly`;
     script.defer = true;
     script.async = true;
     document.body.appendChild(script);
