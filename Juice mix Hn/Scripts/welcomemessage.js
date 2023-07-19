@@ -41,7 +41,8 @@ function displayDate() {
   // Load the Google Maps API script and call the initMap function when it's loaded
   (function () {
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyC7PC1BDod4JQcuPcOqOGdjEfz9YFhQUKoY&callback=initMap&v=weekly`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCMUg5me-aJEHBFuM26VZU_aBDxCrUXvFY&callback=initMap`;
+    
     script.defer = true;
     script.async = true;
     document.body.appendChild(script);
