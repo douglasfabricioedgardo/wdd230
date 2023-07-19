@@ -1,4 +1,4 @@
-const url = 'anuncios.json';
+const url = 'json/anuncios.json';
 
 async function getBusinessData() {
   const response = await fetch(url);
