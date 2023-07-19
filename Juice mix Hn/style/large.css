@@ -114,5 +114,21 @@
       border-radius: 10px;
         
     }
-  
+    .right-column {
+      background-color: #7ED957;
+      border: 1px solid rgba(0,0,0,0.3);
+      height: 100%;
+      border: 4px solid #3B383A;
+     
+      
+  }
+  .spotlight-business section {
+    background-color: #ffa626;
+    border: solid 2px black;
+  }
+  .spotlight-business section:nth-child(3) {
+    display: none;
+  }
+
+
   }

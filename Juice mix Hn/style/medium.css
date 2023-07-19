@@ -340,5 +340,13 @@
       }
 
     }
+  
+   .right-column{
+    display: none;
+    
+   }
+   .fresh-form{
+    width: 90%;
+   }
 
 }

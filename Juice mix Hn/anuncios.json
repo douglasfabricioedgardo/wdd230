@@ -1,0 +1,78 @@
+{
+    "business":
+    [
+        {
+        "business_name": "TuFarma 365",
+        "contact_number": "+504 8856-5959",
+        "location": "Corner on the street of froylan turcios",
+        "service": "DrugStore",
+        "website": "https://www.facebook.com/profile.php?id=100066827763659",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/ad1.jpg",
+        "member_status": "gold"
+        },
+        {
+        "business_name": "All In Technology HN",
+        "contact_number": "+504 9726-2931",
+        "location": "Mall. Mega Plaza",
+        "service": "Celular shop",
+        "website": "https://www.facebook.com/aithonduras",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/2ad.jpg",
+        "member_status": "silver"
+        },
+        {
+        "business_name": "Tevisat",
+        "contact_number": "+504 2443-0671",
+        "location": "Street Alfredito and avenue maxi depensa",
+        "service": "Internet Service",
+        "website": "https://www.facebook.com/tevisat",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/3ad.png",
+        "member_status": "gold"
+        },
+        {
+        "business_name": "Cable Color",
+        "contact_number": "+504 2262-0000",
+        "location": "Ward San Isidro",
+        "service": "Internet Service",
+        "website": "https://www.facebook.com/CableColorHonduras",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/4ad.jpg",
+        "member_status": "silver"
+        },
+       
+        {
+        "business_name": "Claro Honduras",
+        "contact_number": "+504 3390-0000",
+        "location": "Steet colon, Avenue La Esperanza",
+        "service": "Internet Service",
+        "website": "https://www.facebook.com/clarohonduras",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/5ad.png",
+        "member_status": "silver"
+        },
+        {
+        "business_name": "Lady Lee Honduras",
+        "contact_number": "+504 9669-5178",
+        "location": "Mall. Mega Plaza SPS",
+        "service": "sale of household products",
+        "website": "https://www.ladylee.net/?fbclid=IwAR24MxxKpr6xERnKuyi_WwmF8IbROp1i4sgR3aVrpjmB-qeSgeAUz8i_ABM",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/7ad.jpg",
+        "member_status": "gold"
+        },
+        {
+        "business_name": "Tecno's Comp",
+        "contact_number": "+504 9810-5993",
+        "location": "Ward The centro corner Building makelo1, Tocoa, Honduras",
+        "service": "Computer Repair",
+        "website": "https://www.facebook.com/profile.php?id=100063774231997",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/ad8.jpg",
+        "member_status": "silver"
+        },
+        {
+        "business_name": "Tecknos Design Computadoras",
+        "contact_number": "+504 3235-5440",
+        "location": "Street x, avenue 356",
+        "service": "Computer Repair",
+        "website": "https://www.technosdesign.com/?fbclid=IwAR2h-NGwZSIfJ9c8fMhC3ojuQNsd_fAf5sdS_MHmXZ5UCDjuGtTMfXrQycY",
+        "image": "https://raw.githubusercontent.com/douglasfabricioedgardo/wdd230/main/Chamber/images/9ad.jpg",
+        "member_status": "gold"
+        }
+    ]
+}
