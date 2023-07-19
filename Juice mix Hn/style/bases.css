@@ -373,7 +373,7 @@ nav {
 	width: 30%;
 	margin: 0 auto;
 	color: black;
-    background-color: #fedf00;
+    background-color: #ffa626;
 	border: solid 7px black;
 	border-radius: 20px;
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
@@ -382,7 +382,7 @@ nav {
 	border-bottom: solid 7px black;
 }
 form {
-	background-color: #fedf00;
+	background-color: #ffa626;
 	
 	font-family: 'Nunito', Arial, Helvetica, sans-serif;
 }
@@ -511,6 +511,17 @@ header a:hover{
  .logo a:hover{
 	border: solid 1px black;
 	
+ }
+
+ .cta button:hover {
+	background-color: #7ED957;
+	color: whitesmoke;
+	width: 200px;
+ }
+ #drink-form button:hover {
+	background-color: #7ED957;
+	color: whitesmoke;
+	width: 320px;
  }
 
   @media screen and (max-width: 500px) {
