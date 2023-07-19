@@ -440,6 +440,7 @@ select {
 	margin-bottom: 20px;
 }
 
+
 div label, div input {
 	width: 100%;
   }
@@ -519,8 +520,8 @@ footer a:hover{
 	color: #ffa626;
  }
 
- .logo1  a:hover{
-	border: solid 1px black;
+ .logo1  img:hover{
+	border: solid 4px black;
 	
  }
 
@@ -529,14 +530,16 @@ header a{
 	color: black;
 }
 header a:hover{
-	font-size: 25px;
+	font-size: 18px;
 	color: #ffa626;
 }
- .logo a:hover{
-	border: solid 1px black;
+ .logo img:hover{
+	border: solid 8px black;
 	
  }
-
+header h1:hover{
+	font-size: 24px;
+}
  .cta button:hover {
 	background-color: #7ED957;
 	color: whitesmoke;
